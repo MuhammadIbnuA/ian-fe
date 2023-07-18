@@ -1,0 +1,68 @@
+/* GuruTable container styles */
+.guru-table-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Table styles */
+  .guru-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+  }
+  
+  .guru-table th,
+  .guru-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .guru-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .guru-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  /* Button styles */
+
+  .guru-button-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .guru-button {
+    margin-right: 10px;
+  }
+  
+  /* Modal styles */
+  .guru-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .guru-modal-content {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .guru-modal-title {
+    font-weight: bold;
+  }
+  
+  .guru-modal-body {
+    margin-bottom: 20px;
+  }
+  
+  .guru-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .guru-modal-footer .btn-secondary {
+    margin-right: 10px;
+  }
+  
